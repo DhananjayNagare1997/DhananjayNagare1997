@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @DhananjayNagare1997
+- 👀 I’m interested in Data Science, ML & AI
+- 🌱 I’m currently learning Deep Learning
+- 💞️ I’m looking to collaborate on Pacts
+- 📫 How to reach me nagaredhananjay5004@gmail.com
+- 😄 Pronouns: Dhananjay
