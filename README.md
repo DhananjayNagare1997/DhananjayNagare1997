@@ -13,7 +13,7 @@
   <h1>Hi 👋, I'm Dhananjay Nagare</h1>
   <h3>A passionate Data Analyst from Navi Mumbai</h3>
 
-  <img align="right" alt="Coading" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+  <img align="right" alt="Coading" width="400" src="https://www.vhv.rs/dpng/d/556-5569473_19-analyst-clipart-data-entry-operator-free-clip.png">
 
   <p align="left">
     <img src="https://komarev.com/ghpvc/?username=dhananjaynagare1997&label=Profile%20views&color=0e75b6&style=flat" alt="dhananjaynagare1997" />
