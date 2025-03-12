@@ -24,7 +24,7 @@
     <li>💬 Ask me about <strong>Data Analysis, MySQL, ETL</strong></li>
     <li>📫 How to reach me: <a href="mailto:nagaredhananjay5004@gmail.com">nagaredhananjay5004@gmail.com</a></li>
     <li>📄 Know about my experiences: 
-      <a href="https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagarer%20ML%20%26%20Data%20Analyst.pdf" target="_blank">Resume</a>
+      <a href="https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagarer%20ML%20%26%20Data%20Analyst.pdf">Resume</a>
     </li>
   </ul>
 
