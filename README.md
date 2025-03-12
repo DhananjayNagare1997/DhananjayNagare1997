@@ -3,83 +3,232 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhananjay Nagare - Data Analyst Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1, h3 {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Header Section */
+    .header {
+      background-color: #1f77b4;
+      color: white;
+      width: 100%;
+      padding: 60px 0;
+      text-align: center;
+      border-bottom: 3px solid #2a6496;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      animation: slideIn 1.5s ease-in-out;
+    }
+
+    .header h1 {
+      font-size: 3em;
+    }
+
+    .header h3 {
+      font-size: 1.4em;
+      font-weight: 300;
+    }
+
+    /* Profile Info Container */
+    .profile-info {
+      width: 80%;
+      max-width: 1100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Profile Text */
+    .profile-info div {
+      max-width: 50%;
+    }
+
+    .profile-info p {
+      font-size: 1.1em;
+      line-height: 1.6em;
+      color: #333;
+    }
+
+    /* Profile Image */
+    .profile-info img {
+      border-radius: 12px;
+      width: 300px;
+      height: auto;
+      border: 4px solid #eaeaea;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .profile-info img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Image Toggle Section */
+    .image-container {
+      margin: 20px 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      transition: opacity 1s ease-in-out;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px; /* Increased the image size */
+      border-radius: 10px;
+    }
+
+    /* Loading Spinner */
+    .loading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1f77b4;
+      display: none;
+      margin-top: 20px;
+    }
+
+    /* GitHub Stats Section */
+    .github-stats {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      gap: 20px;
+    }
+
+    .github-stats img {
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    /* Button Styling */
+    .load-button {
+      background-color: #1f77b4;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .load-button:hover {
+      background-color: #145a8d;
+      transform: translateY(-2px);
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+  </style>
 </head>
 <body>
 
-  <a href="https://rishavchanda.io">
-    <img src="https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/DATAANALYTICS-1686234812978.png?fm=png&auto=format" alt="MasterHead">
-  </a>
+  <!-- Header Section with Name & Job Profile -->
+  <div class="header">
+    <h1>Dhananjay Nagare</h1>
+    <h3>Data Analyst | Python | MySQL & SSMS Expert | ETL Enthusiast</h3>
+  </div>
 
-  <h1>Hi 👋, I'm Dhananjay Nagare</h1>
-  <h3>A passionate Data Analyst from Navi Mumbai</h3>
+  <!-- Profile Info Section -->
+  <div class="profile-info">
+    <div>
+      <p>🌱 I’m currently learning <strong>ETL</strong></p>
+      <p>💬 Ask me about <strong>Data Analysis, MySQL, ETL, Python, SSMS</strong></p>
+      <p>📫 How to reach me: <a href="mailto:nagaredhananjay5004@gmail.com">nagaredhananjay5004@gmail.com</a></p>
+      <p>📄 Know about my experiences: 
+        <a href="https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagarer%20ML%20%26%20Data%20Analyst.pdf" target="_blank">Resume</a>
+      </p>
+    </div>
 
-  <img align="right" alt="Coading" width="400" src="https://thumbs.dreamstime.com/b/use-realtime-data-feeds-commentators-can-provide-indepth-analysis-breakdowns-replays-giving-viewers-closer-look-319052761.jpg">
+    <!-- Image Toggle Section -->
+    <div class="image-container">
+      <img id="toggleImage" src="https://www.scnsoft.com/blog-pictures/business-intelligence/real-time-big-data-analytics-02_1.png" alt="Toggle Image">
+    </div>
+  </div>
 
-  <p align="left">
-    <img src="https://komarev.com/ghpvc/?username=dhananjaynagare1997&label=Profile%20views&color=0e75b6&style=flat" alt="dhananjaynagare1997" />
-  </p>
+  <!-- Button to Load Stats -->
+  <button class="load-button" id="loadButton">Load GitHub Stats</button>
 
-  <ul>
-    <li>🌱 I’m currently learning <strong>Power BI</strong></li>
-    <li>💬 Ask me about <strong>Data Analysis, MySQL, ETL</strong></li>
-    <li>📫 How to reach me: <a href="mailto:nagaredhananjay5004@gmail.com">nagaredhananjay5004@gmail.com</a></li>
-    <li>📄 Know about my experiences: 
-      <a href="https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagarer%20ML%20%26%20Data%20Analyst.pdf">Resume</a>
-    </li>
-  </ul>
+  <!-- Loading Spinner -->
+  <div class="loading" id="loadingMessage">Fetching data...</div>
 
-  <h3>Connect with me:</h3>
-  <p align="left">
-    <a href="https://www.linkedin.com/in/jay27" target="_blank">
-      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-    </a>
-  </p>
+  <!-- GitHub Stats Section -->
+  <div class="github-stats" id="githubStats" style="display: none;">
+    <div>
+      <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhananjaynagare1997&show_icons=true&locale=en&layout=compact" alt="Top Languages">
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=dhananjaynagare1997&show_icons=true&locale=en" alt="GitHub Stats">
+      <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjaynagare1997&" alt="GitHub Streak">
+    </div>
+  </div>
 
-  <h3>Languages and Tools:</h3>
-  <p align="left">
-    <a href="https://git-scm.com/" target="_blank">
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-    </a>
-    <a href="https://www.w3.org/html/" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-    </a>
-    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
-      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
-    </a>
-    <a href="https://www.mysql.com/" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-    </a>
-    <a href="https://pandas.pydata.org/" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-    </a>
-    <a href="https://www.python.org" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-    </a>
-    <a href="https://scikit-learn.org/" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
-    </a>
-    <a href="https://seaborn.pydata.org/" target="_blank">
-      <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-    </a>
-    <a href="https://www.selenium.dev" target="_blank">
-      <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
-    </a>
-    <a href="https://www.tensorflow.org" target="_blank">
-      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-    </a>
-  </p>
+  <script>
+    // Handle the button click to load GitHub stats
+    document.getElementById("loadButton").addEventListener("click", function() {
+      // Show the loading message
+      document.getElementById("loadingMessage").style.display = "block";
+      document.getElementById("githubStats").style.display = "none";
 
-  <p>
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhananjaynagare1997&show_icons=true&locale=en&layout=compact" alt="dhananjaynagare1997" />
-  </p>
+      // Simulate a delay of 2 seconds to fetch GitHub stats
+      setTimeout(function() {
+        document.getElementById("loadingMessage").style.display = "none";
+        document.getElementById("githubStats").style.display = "block";
+      }, 2000);
+    });
 
-  <p>&nbsp;
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=dhananjaynagare1997&show_icons=true&locale=en" alt="dhananjaynagare1997" />
-  </p>
+    // Function to toggle the images every 5 seconds
+    const images = [
+      "https://www.scnsoft.com/blog-pictures/business-intelligence/real-time-big-data-analytics-02_1.png",
+      "https://thumbs.dreamstime.com/b/use-realtime-data-feeds-commentators-can-provide-indepth-analysis-breakdowns-replays-giving-viewers-closer-look-319052761.jpg"
+    ];
+    let currentImageIndex = 0;
 
-  <p>
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dhananjaynagare1997&" alt="dhananjaynagare1997" />
-  </p>
+    function toggleImage() {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      document.getElementById("toggleImage").src = images[currentImageIndex];
+    }
+
+    setInterval(toggleImage, 5000); // Change image every 5 seconds
+  </script>
 
 </body>
 </html>
