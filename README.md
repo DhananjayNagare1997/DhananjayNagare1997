@@ -13,7 +13,7 @@
 - 🌱 I’m currently learning **Power BI**
 - 💬 Ask me about **Data Analysis, Python, ML, MySQL, ETL**
 - 📫 Reach me at: [nagaredhananjay5004@gmail.com](mailto:nagaredhananjay5004@gmail.com)
-- 📄 Know about my experiences: [Resume](https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagarer%20ML%20%26%20Data%20Analyst.pdf)
+- 📄 Know about my experiences: [Resume](https://github.com/DhananjayNagare1997/Certifications/blob/main/Resume_Dhananjay_Nagare_CV.pdf)
 
 ---
 
