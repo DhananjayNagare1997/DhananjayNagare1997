@@ -11,7 +11,7 @@
 
 ### 🔥 About Me:
 - 🌱 I’m currently learning **Power BI**
-- 💬 Ask me Quote about **Data Analysis, Python, ML, MySQL, ETL** Projects
+- 💬 Ask about **Data Analysis, Python, ML, MySQL, ETL** Projects Quote.
 - 📫 Reach me at: [nagaredhananjay5004@gmail.com](mailto:nagaredhananjay5004@gmail.com)
 - 📄 Know about my experiences: [Resume](https://github.com/DhananjayNagare1997/Certifications/blob/main/Resume_Dhananjay_Nagare_CV.pdf)
 
