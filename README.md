@@ -11,7 +11,7 @@
 
 ### 🔥 About Me:
 - 🌱 I’m currently learning **Gen AI**
-- 💬 Ask about **Data Analysis, Python, ML, MySQL, ETL** Projects Quote.
+- 💬 Ask about **Data Analysis, Python, ML, MySQL, ETL, Gen AI Chatbot** Projects Quote.
 - 📫 Reach me at: [nagaredhananjay5004@gmail.com](mailto:nagaredhananjay5004@gmail.com)
 - 📄 Know about my experiences: [Resume](https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagare%20Resume%20Gen%20AI.pdf)
 
