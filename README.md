@@ -1,5 +1,5 @@
 ## <h1 align="center">🚀 Dhananjay Nagare 🚀</h1>
-### <h2 align="center">🔍 Data Analyst | ML Engineer | ETL Developer | Problem Solver 🔍</h2>
+### <h2 align="center">🔍 Data Analyst | ML Engineer | ETL Developer | Gen AI 🔍</h2>
 
 <img align="right" alt="Coding" width="400" src="https://thumbs.dreamstime.com/b/use-realtime-data-feeds-commentators-can-provide-indepth-analysis-breakdowns-replays-giving-viewers-closer-look-319052761.jpg">
 
@@ -10,7 +10,7 @@
 ---
 
 ### 🔥 About Me:
-- 🌱 I’m currently learning **Power BI**
+- 🌱 I’m currently learning **Gen AI**
 - 💬 Ask about **Data Analysis, Python, ML, MySQL, ETL** Projects Quote.
 - 📫 Reach me at: [nagaredhananjay5004@gmail.com](mailto:nagaredhananjay5004@gmail.com)
 - 📄 Know about my experiences: [Resume](https://github.com/DhananjayNagare1997/Certifications/blob/main/Dhananjay%20Nagare%20Resume%20Gen%20AI.pdf)
